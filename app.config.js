@@ -11,7 +11,7 @@ module.exports = {
       supportsTablet: true,
       bundleIdentifier: "dev.codewithbeto.talkgpt",
       config: {
-        googleMapsApiKey: process.env.GOOGLE_MAPS_APIKEY,
+        googleMapsApiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_APIKEY,
       },
     },
     android: {
@@ -21,7 +21,7 @@ module.exports = {
       },
       config: {
         googleMaps: {
-          apiKey: process.env.GOOGLE_MAPS_APIKEY,
+          apiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_APIKEY,
         },
       },
       permissions: ["android.permission.RECORD_AUDIO"],
