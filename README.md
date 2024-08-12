@@ -20,7 +20,7 @@ After setting up Firebase for Realtime Database, Storage and Authentication, cop
 Also, in Expo, create an Expo EAS Project and set the projectId as your own.
 Eg.:
 
-```json
+```
 extra: {
       eas: {
         projectId: "79a33e02-ba0d-4622-9cbb-835575549553",
