@@ -9,6 +9,7 @@ node_modules/
 .expo/
 dist/
 web-build/
+android/
 
 # Native
 *.orig.*
